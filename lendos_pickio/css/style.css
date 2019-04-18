@@ -1,0 +1,494 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+
+body{
+  	height: 100%;
+}
+
+.wrap{
+	display: flex;
+  	flex-direction: column;
+  	height: 100%;
+}
+
+main{
+	flex: 1 0 auto;
+}
+
+
+header{
+	flex: 2 0 auto;
+	height: 100px;
+	color: white;
+	font-family: sans-serif;
+	font-size: 20px;
+	text-align: left;
+	padding-left: 20px;
+	padding-top: 40px;
+	padding-right: 20px;
+	display: flex;
+	justify-content: space-between;
+	background-color: none;
+}
+
+.header-floating{
+	top: 0;
+    width: 100%;
+    position: absolute;
+}
+
+.wraper_photo_intro{
+	height: 700px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	padding: auto;
+	margin: auto;
+	background-image: url(../img/shopping1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.intro_on_photo{
+	max-width: 500px;
+	height: 700px;
+	display: block;
+}
+
+.intro{
+	max-width: 520px;
+	height: 200px;
+	margin-left: 100px;
+	margin-top: 270px;
+	position: absolute;
+	color: white;
+	font-size: 25px;
+	text-shadow: 1px 1px 2px grey;
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 40px;
+}
+
+.buttons{
+	max-width: 500px;
+	display: flex;
+	height: 50px;
+	margin-top: 500px;
+	margin-left: 100px;
+	position: absolute;
+	justify-content: flex-start;
+}
+
+.apple{
+	background-image: url(../img/app-store.svg);
+	width: 180px;
+	height: 48.45px;
+	background-size: cover;
+}
+
+.google{
+	background-image: url(../img/google-play.svg);
+	width: 180px;
+	height: 48.45px;
+	background-size: cover;
+	margin-left: 30px;
+}
+
+.screenshot{
+	height: 700px;
+	width: 500px;
+	background-image: url(../img/IPX-Screen-2.png);
+	background-size: cover;
+	margin-right: 80px; 
+	margin-bottom: 0px;
+}
+
+.description{
+	height: 300px;
+	background-color: #366F9A;
+	display: flex;
+}
+
+.about{
+	height: 250px;
+	width: 600px;
+	line-height: 30px;
+	margin: auto;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 30px 30px;
+	font-size: 25px;
+	color: #FEE9D6;
+	text-align: center;
+}
+
+.subtitle{
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	color: #0FDAB0;
+	text-align: center;
+}
+
+.icons{
+	height: 600px;
+	background-image: linear-gradient (to top, #0FDAB0, white);
+	background-size: 100%;
+	display: flex;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #366F9A;
+}
+
+.box1{
+	height: 600px;
+	width: 300px;
+	margin: auto;
+	padding-top: 70px;
+
+
+}
+
+.img1{
+	background-image: url(../img/diamond1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 150px;
+	height: 150px;
+	margin: auto;
+}
+
+.t1{
+	width: 300px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 30px;
+	margin: auto;
+}
+
+.box2{
+	height: 600px;
+	width: 300px;
+	margin: auto;
+	padding-top: 70px;
+}
+
+.img2{
+	background-image: url(../img/world.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 150px;
+	height: 150px;
+	margin: auto;
+}
+
+.t2{
+	width: 300px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 30px;
+	margin: auto;
+}
+
+.box3{
+	height: 600px;
+	width: 300px;
+	margin: auto;
+	padding-top: 70px;
+}
+
+.img3{
+	background-image: url(../img/bag.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 150px;
+	height: 150px;
+	margin: auto;
+}
+
+.t3{
+	width: 300px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 30px;
+	margin: auto;
+}
+
+.writeup1, .writeup2, .writeup3{
+	padding-top: 20px;
+	line-height: 30px;
+	font-size: 20px;
+}
+
+.form{
+	font-family: sans-serif;
+}
+
+
+form{
+	display: flex;
+	justify-content: space-between;
+}
+
+.image{
+	background-image: url(../img/laptop.jpg);
+	width: 49%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+	}
+
+.forms{
+	width: 49%;
+	height: 1000px;
+}
+
+.invitation{
+	font-size: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-top: 50px;
+	line-height: 30px;
+	padding-bottom: 20px;
+	width: 500px;
+}
+
+.partner{
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+fieldset{
+	margin-bottom: 20px;
+	display: block;
+}
+
+input, textarea {
+	display: block;
+	font-size: 20px;
+	color: lightgrey;
+	width: 500px;
+	border: .5px solid #366F9A;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+input{
+	height: 50px;
+}
+
+input:focus, textarea:focus {
+	outline: none;
+}
+
+textarea{
+	height: 300px;
+	padding-bottom: 200px;
+}
+
+input[type="submit"] {
+	background-color: #366F9A;
+	border: none;
+	color: #0FDAB0;
+	height: 50px;
+	cursor: pointer;
+	width: 120px;
+}
+
+input[type="submit"]:hover {
+	background-color: #3d7dad;
+}
+
+footer{
+	flex: 0 0 auto;
+}
+
+.foot{
+	height: 100px;
+	background-color: #366F9A;
+	color: #0FDAB0;
+	font-family: sans-serif;
+	padding-left: 20px;
+	padding-top: 40px;
+	padding-right: 20px;
+	font-size: 18px;
+	display: flex;
+	justify-content: space-between;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+
+
+	.intro{
+		margin-left: 50px;
+		font-size: 20px;
+		line-height: 25px;
+		width: 300px;
+	}
+
+	.buttons{
+		margin-left: 50px;
+		display: block;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 80%;
+		height: 180px;
+		margin-top: 480px
+	}
+
+	.google{
+		margin-top: 15px;
+		margin-left: 0px;
+	}
+
+	.about{
+		font-size: 25px;
+		padding: auto;
+		line-height: 25px;
+	}
+
+	
+
+	.image{
+		display: none;
+	}
+
+	.forms{
+		width: 100%;
+		padding-top: 20px;
+		height: 100%;
+	}
+
+	.invitation{
+		width: 80%;
+		margin: auto;
+
+	}
+
+	input, textarea {
+		width: 80%;
+		margin: auto;
+		display: flex;
+		flex-wrap: wrap;
+		font-size: 18px;
+		padding-left: 10px;
+		margin-bottom: 15px;
+	}
+
+	.foot{
+		display: block;
+		padding-top: 20px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+	.intro{
+		margin-left: 50px;
+		font-size: 20px;
+		line-height: 25px;
+		width: 300px;
+	}
+
+	.buttons{
+		margin-left: 50px;
+		display: block;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 80%;
+		height: 180px;
+		margin-top: 480px
+	}
+
+	.google{
+		margin-top: 15px;
+		margin-left: 0px;
+	}
+
+	.about{
+		font-size: 20px;
+		padding: auto;
+		line-height: 20px;
+		height: 200px;
+	}
+
+	.description{
+	height: 220px;
+	background-color: #366F9A;
+	display: flex;
+	}
+
+	
+
+	.icons{
+		display: block;
+		width: 80%;
+		margin: auto;
+		height: 100%;
+		text-align: center;
+	}
+
+	.box{
+		width: 100%;
+		height: 100%;
+	}
+
+	.screenshot{
+		display: none;
+	}
+
+	.image{
+		display: none;
+	}
+
+	.forms{
+		width: 100%;
+		padding-top: 50px;
+		height: 100%;
+	}
+
+	.invitation{
+		width: 80%;
+		margin: auto;
+	}
+
+	.partner{
+		width: 100%;
+		height: 30px;
+		background-color: #366F9A;
+		color: #0FDAB0;
+		padding-bottom: 20px;
+	}
+
+	input, textarea {
+		width: 80%;
+		margin: auto;
+		display: flex;
+		flex-wrap: wrap;
+		font-size: 18px;
+		padding-left: 10px;
+		margin-bottom: 15px;
+	}
+
+	.foot{
+		display: block;
+		padding-top: 20px;
+	}
+
+
+
+
+
+
+
+}
+
